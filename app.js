@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 
+require('./config/mongoose')
 
 app.get('/', (req,res) => {
   res.send('Account Login')
