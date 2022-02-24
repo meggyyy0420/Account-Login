@@ -1,3 +1,25 @@
-<div class="container mt-5" style="max-width: 500px;">
-  <h3>Account Login</h3>
+<div class="container mt-5" style="max-width: 400px;">
+  <h2 class="mb-4" style="text-align: center;">Account Login</h2>
+  <form class="mt-4" action="/login" method="post">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" name="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" name="password" class="form-control form-control-lg" id="exampleInputPassword1" required>
+    </div>
+    {{!-- <div class="form-group form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div> --}}
+    <div class="warning d-flex justify-content-center mb-2">
+      {{#if noUser}}<p class="my-2" style="color: red;">You haven't registered yet!</p> {{/if}}
+      {{#if invalidPassword}}<p class="my-2" style="color: red;">Invalid password!</p>{{/if}}
+    </div>
+    <div class="button d-flex justify-content-center">
+      <button type="submit" class="btn btn-primary">Sign in</button>
+    </div>
+  </form>
 </div>
