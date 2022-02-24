@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 require('./config/mongoose')
-const Accounts = require('./models/account')
+const Account = require('./models/account')
 
 app.get('/', (req,res) => {
   res.send('Account Login')
