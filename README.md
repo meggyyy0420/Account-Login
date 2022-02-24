@@ -1,3 +1,4 @@
+![image](https://user-images.githubusercontent.com/79748426/155484087-ebca650a-76a8-427e-b50a-c1fd1286fb9c.png)
 # Account-Login
 
 A simple website for user  authentication
@@ -7,6 +8,8 @@ A simple website for user  authentication
 - User provides the account and password, and the server checks the identity
 - If the account is not found, or the password is wrong, a warning is returned
 - Login successful, display user name
+![image](https://user-images.githubusercontent.com/79748426/155484145-ada4ea5e-983b-4c3c-8dfc-fa6f569d776c.png)
+- Remember the logged in user account password
 
 ## Environment
 
