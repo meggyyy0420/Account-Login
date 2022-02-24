@@ -10,10 +10,10 @@
       <label for="exampleInputPassword1">Password</label>
       <input type="password" name="password" class="form-control form-control-lg" id="exampleInputPassword1" required>
     </div>
-    {{!-- <div class="form-group form-check">
+    <div class="form-group form-check">
       <input type="checkbox" class="form-check-input" id="exampleCheck1">
       <label class="form-check-label" for="exampleCheck1">Check me out</label>
-    </div> --}}
+    </div>
     <div class="warning d-flex justify-content-center mb-2">
       {{#if noUser}}<p class="my-2" style="color: red;">You haven't registered yet!</p> {{/if}}
       {{#if invalidPassword}}<p class="my-2" style="color: red;">Invalid password!</p>{{/if}}
