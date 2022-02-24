@@ -34,5 +34,5 @@ db.once('open', () => {
   for(let i = 0; i < users.length; i++) {
     Account.create(users[i])
   }
-  console.log('Account seeder done!')
+  console.log('Account seeder run done!')
 })
