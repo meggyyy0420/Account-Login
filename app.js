@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 const exphbs = require('express-handlebars')
+const cookieParser = require('cookie-parser')
 // connect with mongodb
 require('./config/mongoose')
 
@@ -12,6 +13,9 @@ app.set('view engine', 'hbs')
 
 // body-parser
 app.use(express.urlencoded({ extended: true }))
+
+// cookie-parser
+app.use(cookieParser('123456789'))
 
 // routes
 app.use(routes)
