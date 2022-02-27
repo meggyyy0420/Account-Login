@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/79748426/155484087-ebca650a-76a8-427e-b50a-c1fd1286fb9c.png)
+![image](https://user-images.githubusercontent.com/79748426/155864201-78a9da52-1a10-4d23-9940-022b016cca62.png)
 # Account-Login
 
 A simple website for user  authentication
@@ -8,8 +8,9 @@ A simple website for user  authentication
 - User provides the account and password, and the server checks the identity
 - If the account is not found, or the password is wrong, a warning is returned
 - Login successful, display user name
-![image](https://user-images.githubusercontent.com/79748426/155484145-ada4ea5e-983b-4c3c-8dfc-fa6f569d776c.png)
+![image](https://user-images.githubusercontent.com/79748426/155864242-5001cc1c-4271-4b23-91a3-2b6f3d480fb4.png)
 - Remember the logged in user account password
+- Click the logout button to return to the login page
 
 ## Environment
 
@@ -23,6 +24,7 @@ Install
 - [mongoDB]
 - [mongoose]
 - [body-parser]
+- [cookie-parser]
 
 ## Installing
 
@@ -53,3 +55,4 @@ npm run dev
 [mongoDB]: https://www.mongodb.com/
 [mongoose]: https://mongoosejs.com/
 [body-parser]: https://www.npmjs.com/package/body-parser
+[cookie-parser]: https://www.npmjs.com/package/cookie-parser
