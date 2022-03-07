@@ -1,7 +1,7 @@
 ![image](https://user-images.githubusercontent.com/79748426/155864201-78a9da52-1a10-4d23-9940-022b016cca62.png)
 # Account-Login
 
-A simple website for user  authentication
+A simple website for user  authentication on heroku
 
 ## Features
 
@@ -10,6 +10,7 @@ A simple website for user  authentication
 - Login successful, display user name
 ![image](https://user-images.githubusercontent.com/79748426/155864242-5001cc1c-4271-4b23-91a3-2b6f3d480fb4.png)
 - Remember the logged in user account password
+  ( test -> email: tony@stark.com , password: iamironman )
 - Click the logout button to return to the login page
 
 ## Environment
@@ -26,25 +27,8 @@ Install
 - [body-parser]
 - [cookie-parser]
 
-## Installing
-
-1. 在終端機輸入指令 Clone 此專案至本機電腦
-```
-git clone https://github.com/meggyyy0420/Account-Login.git
-```
-2. 移至檔案夾
-```
-cd Account-Login
-```
-3. 安裝相關套件
-```
-npm install
-```
-4. 啟動專案
-```
-npm run dev
-```
-5. 使用瀏覽器開啟：http://localhost:3004 即可瀏覽本專案
+### Project Pages
+瀏覽本專案：<https://desolate-hollows-42161.herokuapp.com/>
 
 
 [node.js]: https://nodejs.org/
