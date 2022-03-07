@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+const PORT = process.env.PORT || 3004
 const exphbs = require('express-handlebars')
 const cookieParser = require('cookie-parser')
 // connect with mongodb
@@ -20,6 +21,6 @@ app.use(cookieParser('123456789'))
 // routes
 app.use(routes)
 
-app.listen(3004, () => {
-  console.log('App is running on http://localhost:3004')
+app.listen(PORT, () => {
+  console.log(`App is running on http://localhost:${PORT}`)
 })
